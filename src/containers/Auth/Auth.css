@@ -1,0 +1,21 @@
+.Auth {
+    text-align: center;
+    margin: auto;
+    width: 80px;
+}
+
+.Auth input {
+    display: block;
+    margin: auto;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}
